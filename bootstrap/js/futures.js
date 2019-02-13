@@ -200,6 +200,7 @@ $(function() {
 			var price = 0;
 			var p = 0;
 			var t = 0;
+			var pnl = 0;
 
 			for (var prop in obj) {
 
