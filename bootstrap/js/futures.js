@@ -25,14 +25,14 @@ $(function() {
 	  
 	  {
 	      name : 'Medium Grade: 100 grams'
-	    , symbol : 'MJM.M'
+	    , symbol : 'MJMM'
 	    , price : '899.00'
 	    , shares : '0'
 	  },
 	  
 	  {
 	      name : 'Low Grade: 100 grams'
-	    , symbol : 'MJL.M'
+	    , symbol : 'MJLM'
 	    , price : '788.00'
 	    , shares : '0'
 	  }
