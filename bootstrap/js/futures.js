@@ -212,11 +212,13 @@ $(function() {
 				}
 
 				p = portfolioValue();
-				t = cashflow + p; 
+				t = cashflow + p;
+				pnl = t - 50000;
 
 				$('#cashflow').html(cashflow);
 				$('#portfolio').html(p);
 				$('#netWorth').html(t);
+				$('#profitOrLoss').html(pnl);
 
 				//hide all buy buttons if cashflow is 0
 				if (cashflow === 0) {
